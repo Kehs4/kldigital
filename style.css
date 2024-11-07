@@ -101,6 +101,15 @@ a {
     max-width: 1500px;
 }
 
+.first-section-btn-seta {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.first-section-btn-seta:hover {
+    transform: scale(1.1);
+}
+
 .section-services {
     display: flex;
     justify-content: center;
@@ -110,7 +119,7 @@ a {
     margin: auto;
     box-shadow: 0px 0px 15px 0px rgb(211, 211, 211);
     border-radius: 10px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .section-services-websites {
@@ -177,5 +186,83 @@ a {
     max-width: 800px;
     font-weight: 200;
     font-size: 22px;
+    margin: auto;
+}
+
+.section-contact {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    height: 350px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.section-contact-text {
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.contact-title {
+    font-size: 2rem;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-contact-form {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: Poppins, sans-serif;
+    color: white;
+    width: 400px;
+    font-size: 1rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.form-textarea {
+    font-family: Poppins, sans-serif;
+    background-color: black;
+    color: rgb(231, 231, 231);
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    resize: none;
+}
+
+
+.btn-form-send {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 100;
     margin: auto;
 }

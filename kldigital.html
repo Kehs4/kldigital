@@ -26,7 +26,7 @@
         <p class="first-section-p1">Aqui trabalhamos para que sua empresa fique sempre no topo!</p>
         <p class="first-section-p2">Soluções para websites, branding e marketing digital.</p>
         <p class="first-section-p3">Confira nossos serviços abaixo!</p>
-        <img src="imgs/Seta.svg" alt="" srcset="" width="60" height="60">
+        <img src="imgs/Seta.svg" alt="" srcset="" width="60" height="60" class="first-section-btn-seta">
     </section>
 
     <section class="section-services">
@@ -68,34 +68,39 @@
 
     <section class="section-contact">
         <div class="section-contact-text">
-            <h2>ENTRE EM CONTATO</h2>
+            <p class="contact-title">ENTRE EM CONTATO</p>
             <p>Para falar com a equipe de atendimento, insira as seguintes informações:</p>
-            <div class="section-contact-form">
-                <form action="submit">
-                    <input type="text"
-                    name="email"
-                    id="email"
-                    placeholder="Nome" required>
-                    <input type="tel"
-                    name="celular"
-                    id="celular"
-                    placeholder="DDD + Celular">
-                    
-                    <input type="email" 
-                    name="email" 
-                    id="email"
-                    placeholder="E-mail" required>
-
-                    <input type="text""
-                    name="mensagem"
-                    id="mensagem"
-                    placeholder="Mensagem:">
-                    
-                    <button type="submit"
-                    >Enviar</button>
-                </form>
-            </div>
         </div>
+        
+        <div class="section-contact-form">
+            <form class="form-contact" action="submit">
+                <input class="input" 
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Nome" required>
+                    
+                <input class="input"
+                type="tel"
+                name="celular"
+                id="celular"
+                placeholder="DDD + Celular" required>
+                     
+                <input class="input"
+                type="email" 
+                name="email" 
+                id="email"
+                placeholder="E-mail" required>
+
+                <textarea class="form-textarea"
+                placeholder="Mensagem:"
+                rows="4"
+                required></textarea>
+                    
+                <button class="btn-form-send" type="submit">ENVIAR</button>
+            </form>
+        </div>
+        
     </section>
 </body>
 </html>
